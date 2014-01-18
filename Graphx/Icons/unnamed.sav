@@ -1,0 +1,11 @@
+var x : int;
+loop;
+    put "Enter number to get factors of: " ..;
+    get x;
+    cls;
+    for i : 1 .. x;
+	if (x mod i) = 0 then;
+	    put "Factors of ", x, " are :", i;
+	end if;
+    end for;
+end loop
